@@ -239,3 +239,113 @@ header {
 .architect-img .exp h1 {}
 
 .architect-img .exp p {}
+
+
+/* fact section */
+.fact {
+    margin-bottom: 100px;
+}
+
+.fact-title {
+    margin-bottom: 80px;
+}
+
+.fact-title h1 {
+    border-left: 5px solid #FF900E;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 5px;
+    color: #131313;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.fact-title p {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.fact-content {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-card {
+    text-align: center;
+    border: 2px solid orange;
+    padding: 30px;
+}
+
+.fact-card img {
+    width: 40px;
+}
+
+.fact-card h4 {
+    color: #424242;
+
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+}
+
+.fact-card p {
+    color: #727272;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+/* Sponspors section */
+.Sponspors {
+    margin-bottom: 100px;
+}
+
+.Sponspors-title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.Sponspors-title h1 {
+    margin-bottom: 5px;
+    color: #131313;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Sponspors-title p {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.Sponspors-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponspors-card {}
+
+.sponspors-card img {
+    width: 70%;
+}
+
+/* footer section*/
+footer {
+    margin-bottom: 50px;
+}
+
+.footer-text {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #FFF4E7;
+    text-align: center;
+}
+
+.footer-text p {}
