@@ -370,8 +370,9 @@ footer {
 @media(max-width:576px) {
 
     /* header section */
-    header {
-        display: none;
+    .header {
+        flex-direction: column;
+        text-align: center;
     }
 
     /* feature section */
