@@ -111,7 +111,9 @@ header {
 }
 
 /* feature section */
-.feature {}
+.feature {
+    margin-bottom: 100px;
+}
 
 .feature-content {
     display: flex;
@@ -155,3 +157,85 @@ header {
 .feature-text button {
     border: none;
 }
+
+
+/* architect section */
+.architect {
+    margin-bottom: 100px;
+}
+
+.architect-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.architect-text {
+    flex-basis: 45%;
+}
+
+.architect-title {
+    margin-bottom: 40px;
+}
+
+.architect-title h1 {
+    border-left: 5px solid #FF900E;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 5px;
+    color: #131313;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.architect-title p {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.architect-text-content {}
+
+.architect-card {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+}
+
+.architect-card h3 {
+    color: #131313;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.architect-card p {
+    color: #727272;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.architect-img {
+    position: relative;
+    flex-basis: 45%;
+}
+
+.architect-img img {
+    width: 100%;
+}
+
+.architect-img .exp {
+    top: 88%;
+    border-radius: 6px;
+    display: inline-block;
+    color: white;
+    background-color: #FF900E;
+    padding: 30px 51px;
+    position: absolute;
+    right: 72%;
+}
+
+.architect-img .exp h1 {}
+
+.architect-img .exp p {}
