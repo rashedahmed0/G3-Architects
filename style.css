@@ -385,6 +385,12 @@ footer {
 
     }
 
+    .architect-img .exp {
+        top: 90%;
+        padding: 25px 43px;
+        right: 63%;
+    }
+
     /* fact section */
     .fact-content {
         flex-direction: column;
