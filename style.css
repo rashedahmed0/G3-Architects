@@ -12,6 +12,20 @@
 
 }
 
+.btn {
+    background-color: #FF900E;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 5px
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: #FF900E;
+    border: 1px solid #FF900E;
+}
+
 /* header section */
 header {
     background-color: rgba(255, 144, 14, 0.10);
@@ -53,4 +67,91 @@ header {
 
     font-weight: 500;
 
+}
+
+/* banner section */
+.banner {
+    padding-top: 50px;
+    background-color: rgba(255, 144, 14, 0.10);
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-text {}
+
+.banner-text h1 {
+    padding-top: 30px;
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.banner-text p {
+    padding-top: 15px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+
+.banner-text a {}
+
+.banner-img {
+    margin-top: 50px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* feature section */
+.feature {}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-img {
+    flex-basis: 48%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-text {
+    flex-basis: 48%;
+}
+
+.feature-text h1 {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.feature-text p {
+    margin-bottom: 30px;
+    color: #727272;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.feature-text button {
+    border: none;
 }
