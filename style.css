@@ -163,9 +163,11 @@ header {
 /* architect section */
 .architect {
     margin-bottom: 100px;
+
 }
 
 .architect-content {
+
     display: flex;
     justify-content: space-between;
 
@@ -218,23 +220,31 @@ header {
 }
 
 .architect-img {
-    position: relative;
-    flex-basis: 45%;
+    text-align: right;
+
 }
+
+
 
 .architect-img img {
     width: 100%;
 }
 
-.architect-img .exp {
-    top: 88%;
-    border-radius: 6px;
+.architect-img-content {
+    flex-basis: 45%;
+
+
+}
+
+.exp {
     display: inline-block;
+    border-radius: 6px;
     color: white;
     background-color: #FF900E;
     padding: 30px 51px;
-    position: absolute;
-    right: 72%;
+    margin-top: -58px;
+    margin-left: -54px;
+
 }
 
 .architect-img .exp h1 {}
